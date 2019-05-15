@@ -1,0 +1,84 @@
+body{
+    padding: 0;
+    margin: 0;
+   }
+   .title{
+       margin-top: 200px;
+       font-size: 75px;
+       font-family: 'Akronim', cursive;
+       cursor: default;
+       border:none;
+       border-radius: 4px;
+       color:rgb(170, 210, 226);
+   }
+   #todo{
+       flex-direction:column;
+   }
+   form{
+    max-width: 25em;
+    margin: 1em auto;
+    font-family: 'Macondo Swash Caps', cursive;
+   }
+   .button {
+    border-radius: 4px;
+    background-color: #f4511e;
+    font-family: 'Macondo Swash Caps', cursive;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 28px;
+    padding: 10px;
+    width: 200px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 10px;
+  }
+  .list-instyled{
+      border:solid;
+      font-family: 'Macondo Swash Caps', cursive;
+      border-radius: 4px;
+      font-size:40px;
+      color:rgb(170, 210, 226);
+  }
+  .del{
+    border-radius: 4px;
+    background-color: #f4511e;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 18px;
+    padding: 15px;
+    cursor: pointer;
+    margin: 5px;
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+  }
+  
+  .button {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  .button:hover {
+    transition: 0.5s;
+        -webkit-animation-name: example; /* Safari 4.0 - 8.0 */
+        -webkit-animation-duration: 4s; /* Safari 4.0 - 8.0 */
+        animation-name: example;
+        animation-duration: 4s;
+      }
+      
+      /* Safari 4.0 - 8.0 */
+      @-webkit-keyframes example {
+        from {background-color: #f4511e;}
+        to {background-color: rgba(255, 255, 0, 0.705);}
+      }
+      
+      /* Standard syntax */
+      @keyframes example {
+        from {background-color: #f4511e;}
+        to {background-color: rgba(255, 255, 0, 0.644);}
+
+  }
+  
